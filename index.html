@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos/estilos.css">
+    <link rel="icon" type="imagen/jpg" href="Imagenes/Logo Bicicleteria/Logo.png">
+    <script src="Javascript/Tabla.js"></script>
+    <title>Grand Sprint</title>
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+            <img id="botonMenu" src="Imagenes/iconos/boton menu.png">
+            <h1 class="nombre-empresa">
+                Grand Sprint
+            </h1>
+            <img class="logo" src="Imagenes/Logo Bicicleteria/Logo.png">
+        </div>
+        <nav> 
+            <ul id="nav">
+                <li class="item"><a class="seccion" href="index.html">Inicio</a></li>
+                <li class="item"><a class="seccion" href="productos.html">Productos</a></li>
+                <li class="item"><a class="seccion" href="nosotros.html">Nosotros</a></li>
+                <li class="item"><a class="seccion" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+        
+    </header>    
+    <main >
+        <div class="contenedor">
+            <section class="accesorios">
+                <h1>
+                 ACCESORIOS Y REPUESTOS
+                </h1>
+            </section>
+            <a href="productos.html"><img class="img-arriba" src="Imagenes/Foto Index/Accesorios.jpg" alt="Accesorios"></a>
+        </div>
+        <div class="contenedor">
+            <section class="bicicletas">
+                <h1>
+                    BICICLETAS
+                </h1>
+            <a href="productos/Bicicletas.html"></a><img class="img-abajo" src="Imagenes/Foto Index/Productos.jpg" alt="Bicicletas">
+        </div>
+        </section>
+  
+    <div>
+        <h2 class="Stock-Bici">
+           STOCK DE BICICLETAS
+        </h2>
+    </div>
+<form action="" id="Formulario">
+    <p>Sexo</p>
+    <select name="sexo" id="Sexo">
+        <option value="masculino">Masculino</option>
+        <option value="femenino">Femenino</option>
+    </select>
+    <p>Tipo</p>
+    <select name="tipoBicicleta" id="TipoBicicleta">
+        <option value="ruta">Ruta</option>
+        <option value="mountanbike">Mountanbike</option>
+    </select>
+    <p>Talle</p>
+    <select name="talle" id="Talle">
+        <option value="XS">XS</option>
+        <option value="S">S</option>
+        <option value="M">M</option>
+        <option value="L">L</option>
+        <option value="XL">XL</option>
+        <option value="XXL">XXL</option>
+    </select>
+    <p>Modelo</p>
+    <input type="text" name="modelo" id="Modelo" required placeholder="modelo">
+    <a>Medida</a>
+    <input type="text" name="medida" id="Medida" required placeholder="medida">
+    
+    <input type="submit" value="Agregar" id="submit">
+</form>
+<article class="tabla">
+
+<table class="cont-tabla">
+        <thead>
+            <tr>
+                <td>Modelo</td>
+                <td>Sexo</td>
+                <td>Medida</td>
+                <td>Talle</td>
+                <td>Tipo</td>
+            </tr>
+        </thead>
+        <tbody id="TBody">
+        </tbody>
+    </table>
+    <div class="BotonesTablas">
+        <button id="agregarX3">Agregar x 3</button>
+        <input type="button" value="Limpiar Tabla" id="limpiar-tabla">
+    </div>
+</article>
+</main>
+<footer class="contenido-footer">
+    <div class="contacto-footer">
+    <h2 class="contacto-f">
+        Contacto
+    </h2>
+    </div>
+    <div class="iconos">
+        <div class="logo-contacto">
+            <img src="Imagenes/iconos/icono whatsapp.png">
+            <p class="info-contacto"> 2262-43-9189</p>
+        </div>
+        <div class="logo-contacto">
+            <img src="Imagenes/iconos/icono mail.png">
+            <p class="info-parrafo">grandsprint@gmail.com</p>
+        </div>
+        <div class="logo-contacto">
+            <img src="Imagenes/iconos/icono maps.png">
+            <p class="info-parrafo">Av 59 y esquina 34</p>
+        </div>
+    </div>
+</footer>    
+</body>              
+
+</html>

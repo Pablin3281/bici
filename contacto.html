@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Estilos/estilos.css">
+    <link rel="icon" type="imagen/jpg" href="Imagenes/Logo Bicicleteria/Logo.png">  
+    <script src="Javascript/captcha.js"></script> 
+    <title>Contacto</title>
+</head>
+<body>
+    <header>
+        <div class="encabezado">
+            <img id="botonMenu" src="Imagenes/iconos/boton menu.png">
+            <h1 class="nombre-empresa">
+                Grand Sprint
+            </h1>
+            <img class="logo" src="Imagenes/Logo Bicicleteria/Logo.png">
+        </div>
+        <nav> 
+            <ul id="nav">
+                <li class="item"><a class="seccion" href="index.html">Inicio</a></li>
+                <li class="item"><a class="seccion" href="productos.html">Productos</a></li>
+                <li class="item"><a class="seccion" href="nosotros.html">Nosotros</a></li>
+                <li class="item"><a class="seccion" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>    
+    <form action="" class="formulario">
+        <h2 class="contacto">
+            CONTACTO
+        </h2>
+        <input type="text" id="InputNombre" name="Nombre" required placeholder="Nombre">
+        <input type="text" id="InputMail" name="Mail" required placeholder="Mail">
+        <input type="text" id="InputTelefono" name="Telefono" required placeholder="Telefono">
+        <textarea id="InputMensaje" name="Mensaje" required placeholder="Escriba aca su consulta"></textarea>
+        <h2 class="h2-form">
+            CAPTCHA
+        </h2>
+        <p id="captcha"></p>
+        <input type="text" required id="ingresaCaptcha" name="ingrese captcha" placeholder="captcha">
+        <button type="submit" id="BotonEnviar">Enviar</button>
+        <button type="reset" id="BotonReset">Recargar</button>     
+        <p id="captchaValido"></p>
+    </form>
+    <footer class="contenido-footer">
+        <div class="contacto-footer">
+        <h2 class="contacto-f">
+            Contacto
+        </h2>
+        </div>
+        <div class="iconos">
+            <div class="logo-contacto">
+                <img src="Imagenes/iconos/icono whatsapp.png">
+                <p class="info-contacto"> 2262-43-9189</p>
+            </div>
+            <div class="logo-contacto">
+                <img src="Imagenes/iconos/icono mail.png">
+                <p class="info-contacto">grandsprint@gmail.com</p>
+            </div>
+            <div class="logo-contacto">
+                <img src="Imagenes/iconos/icono maps.png">
+                <p class="info-contacto">Av 59 y esquina 34</p>
+            </div>
+        </div>
+    </footer>  
+</body>
+</html>

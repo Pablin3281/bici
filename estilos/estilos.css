@@ -1,0 +1,301 @@
+*{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    background-image: url(../Fondo/Fondo.jpg);
+    background-attachment: fixed;
+    box-sizing: border-box;
+    margin: 0px;
+}
+.contenedor{
+    width: 95%;
+    height: 100%;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+}
+
+.img-arriba,.img-abajo {
+    height: 100%;
+    width: 100%;
+    border: solid rgba(0, 2, 128);
+    border-radius: 10px;
+}
+
+.accesorios,.bicicletas,.Stock-Bici{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    color:white;
+    padding-top: 20px;
+    align-items: center;
+}
+.logo{
+    background:transparent;
+    display:flex;
+    align-items:left;
+    width:20%;
+    height:20%;
+}
+.nombre-empresa{
+    color:white;
+    display:flex;
+    justify-content: center;
+
+    align-items:flex-start;
+    font-style: italic;
+    font-size: 250%;
+}
+.encabezado{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.387);
+    border-bottom: 5px solid rgb(0, 2, 128);
+}
+#nav{
+    display:none;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.387);
+    border-bottom: 5px solid rgb(0, 2, 128);
+    padding-left: 0;
+    margin: 0px;
+   
+}
+#nav.mostrar{
+    display:flex;
+}
+#botonMenu{
+    width: 20%;
+    height: 20%;
+    margin:5%;
+}
+.item{
+    display:flex;
+    align-items:center;
+    list-style: none;
+    margin: 0px 10px;
+    text-transform: uppercase;
+    padding: 15px;
+}
+.item:hover {
+    background: rgba(15, 75, 228, 0.607);
+}
+.seccion{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin:0px;
+}
+.Nosotros{
+    background-color:rgba(33, 48, 179, 0.16);
+    color:white;
+    margin-bottom: 20px;
+    text-align: center;
+    width: 100%;
+}
+.cont-Nosotros{
+    display: flex;
+    flex-direction: colum;
+}
+.foto-comercio{
+    display:flex;
+    width:100%;
+    border-radius: 3%;
+}
+figure{
+    margin: 0px;
+    margin-top: 5%;
+}
+.fundado{
+    background-color: rgba(33, 48, 179, 0.16);
+    border-radius: 10px;
+    color: aliceblue;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 60%;
+    margin: 18%;
+    padding: 2%;
+    align-items: center;
+}
+.contenido-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    background-color: rgb(38, 36, 36);
+    width:100% ;
+    height: 2%;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 2%;
+}
+.contacto-footer{
+    display: flex;
+    justify-content: center;
+}
+.tabla{
+    max-width: 85%;
+    overflow-x: scroll;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: solid rgb(8, 8, 8);
+    background: rgba(48, 56, 58, 0.773);
+    font-family: cursive;
+    color: white;
+    margin: auto;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.formulario,#Formulario{
+    width: 85%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    border: solid rgb(8, 8, 8);
+    background: rgba(48, 56, 58, 0.773);
+    font-family: cursive;
+    color: white;
+    margin: auto;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.BotonesTablas{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.contacto{
+    color: white;
+    text-align: center;
+    margin:0px;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+input,textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-radius: 3px;
+}
+#limpiar-tabla,#agregarX3{
+    width: 50%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border-radius: 3px;
+}
+
+#BotonEnviar,#BotonReset{
+    background-color: rgb(3, 44, 224);
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+#captcha{
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 10px 20px 20px black,5px 10px 10px rgb(15,51,252);   
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.iconos{
+    
+    display: flex;
+    color:white;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    margin-left: 3%;
+}
+.logo-contacto{
+    display: flex;
+    flex-direction:row ;
+    align-items: center;
+    width: 100%;
+}
+.info-contacto{
+    margin-left: 5%;
+}
+.contenedor-galeria{
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    margin: auto;
+}
+.galeria__img{
+    width: 80%;
+    height: 100%;
+    margin-bottom: 30px;
+    object-fit: cover;
+    filter: brightness(70%);
+    border-bottom:solid 3px blue ;
+}
+.galeria__img:hover {
+    filter: brightness(100%);
+}
+.contacto-f{
+    text-align: center;
+    color: white;
+    font-size: 150%;
+    justify-content: center;
+}
+.cont-tabla{
+    border-radius: 2px;
+    justify-content:center;
+   
+}
+thead{
+   
+    background-color: rgba(15, 53, 223, 0.476);
+}
+table tr td{
+    border: 1px solid black;
+}
+@media screen and (min-width:800px){
+   #botonMenu {
+    display:none;
+   }
+   header{
+    Background-color:rgba(33, 48, 179, 0.16);
+   }
+   .nombre-empresa{
+    font-size: 500%;
+    margin: auto;
+   }
+   .iconos{
+   flex-direction: row;
+   }
+   #nav{
+    display:flex;
+    flex-direction: row;
+    Background-color:rgba(33, 48, 179, 0.16);
+   }
+   .contenedor-galeria{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+   }
+   .foto-comercio{
+    width:50%;
+    margin-left:25%;
+ 
+}
+}
+@media screen and (min-width:1200px) {
+  .contenedor-galeria{
+   grid-template-columns: 1fr 1fr 1fr;
+  } 
+}
